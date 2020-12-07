@@ -13,19 +13,19 @@ const Footer = () => {
           <div className="w-full md:w-1/4 mt-4 md:mt-0">
             <h2 className="font-bold font-5xl mb-1">Sitemap</h2>
             <ul>
-              <li><a className="mt-2" href="#">Nurses</a></li>
-              <li><a className="mt-2" href="#">Employers</a></li>
-              <li><a className="mt-2" href="#">Social networking</a></li>
-              <li><a className="mt-2" href="#">Jobs</a></li>
+              <li><a className="mt-2" href="/#">Nurses</a></li>
+              <li><a className="mt-2" href="/#">Employers</a></li>
+              <li><a className="mt-2" href="/#">Social networking</a></li>
+              <li><a className="mt-2" href="/#">Jobs</a></li>
             </ul>
           </div>
   
           <div className="w-full md:w-1/4 mt-4 md:mt-0">
             <h2 className="font-bold font-5xl mb-1">Privacy</h2>
             <ul>
-              <li><a className="mt-2" href="#">Terms of use</a></li>
-              <li><a className="mt-2" href="#">Privacy policy</a></li>
-              <li><a className="mt-2" href="#">Cookie policy</a></li>
+              <li><a className="mt-2" href="/#">Terms of use</a></li>
+              <li><a className="mt-2" href="/#">Privacy policy</a></li>
+              <li><a className="mt-2" href="/#">Cookie policy</a></li>
             </ul>
           </div>
         </div>

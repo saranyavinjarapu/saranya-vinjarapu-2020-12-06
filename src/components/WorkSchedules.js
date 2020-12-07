@@ -1,9 +1,9 @@
 import React from "react";
 
-const JobType = ({ items }) => {
+const WorkSchedule = ({ items }) => {
   return (
     <div className="bg-white p-4 mb-4">
-      <p className="font-bold mb-3">JOB TYPE</p>
+      <p className="font-bold mb-3">WORK SCHEDULE</p>
       <div>
         {items
           ? items.map((item, index) => (
@@ -20,4 +20,4 @@ const JobType = ({ items }) => {
   );
 };
 
-export default JobType;
+export default WorkSchedule;

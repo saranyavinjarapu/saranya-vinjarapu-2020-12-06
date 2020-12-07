@@ -1,16 +1,21 @@
-import React from 'react';
-import JobType from './JobType';
-import JobDepartment from './JobDepartment';
-import WorkSchedule from './WorkSchedule';
-import Experience from './Experience';
+import React from "react";
+import JobType from "./JobType";
+import JobDepartment from "./JobDepartment";
+import WorkSchedules from "./WorkSchedules";
+import Experience from "./Experience";
 
-const JobInfoSideBar = () => {
+const JobInfoSideBar = ({
+  JobTypeData,
+  DepartmentsData,
+  WorkSchedulesData,
+  ExperienceData,
+}) => {
   return (
     <div className="relative">
-          <JobType></JobType>
-          <JobDepartment></JobDepartment>
-          <WorkSchedule></WorkSchedule>
-          <Experience></Experience>
+      <JobType items={JobTypeData}></JobType>
+      <JobDepartment items={DepartmentsData}></JobDepartment>
+      <WorkSchedules items={WorkSchedulesData}></WorkSchedules>
+      <Experience items={ExperienceData}></Experience>
     </div>
   );
 };
