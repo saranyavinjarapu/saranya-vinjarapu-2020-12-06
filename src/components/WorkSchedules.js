@@ -1,16 +1,16 @@
 import React from "react";
 
-const WorkSchedule = ({ items }) => {
+const WorkSchedule = ({ WorkSchedulesData }) => {
   return (
     <div className="bg-white p-4 mb-4">
       <p className="font-bold mb-3">WORK SCHEDULE</p>
       <div>
-        {items
-          ? items.map((item, index) => (
+        {WorkSchedulesData
+          ? WorkSchedulesData.map((WorkSchedulesData, index) => (
               <div className="my-2" key={index}>
-                <span className="mr-2 text-sm">{item.key}</span>
+                <span className="mr-2 text-sm">{WorkSchedulesData.key}</span>
                 <span className="text-gray-400 text-xs">
-                  {item.doc_count.toLocaleString()}
+                  {WorkSchedulesData.doc_count.toLocaleString()}
                 </span>
               </div>
             ))

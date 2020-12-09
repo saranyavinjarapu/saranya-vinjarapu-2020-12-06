@@ -12,10 +12,10 @@ const JobInfoSideBar = ({
 }) => {
   return (
     <div className="relative">
-      <JobType items={JobTypeData}></JobType>
-      <JobDepartment items={DepartmentsData}></JobDepartment>
-      <WorkSchedules items={WorkSchedulesData}></WorkSchedules>
-      <Experience items={ExperienceData}></Experience>
+      <JobType JobTypeData={JobTypeData}></JobType>
+      <JobDepartment DepartmentsData={DepartmentsData}></JobDepartment>
+      <WorkSchedules WorkSchedulesData={WorkSchedulesData}></WorkSchedules>
+      <Experience ExperienceData={ExperienceData}></Experience>
     </div>
   );
 };
